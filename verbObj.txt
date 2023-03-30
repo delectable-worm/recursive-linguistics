@@ -1,3 +1,7 @@
-eat
-drink
-punch
+eats
+drinks
+punches
+gives
+takes
+steals
+borrows

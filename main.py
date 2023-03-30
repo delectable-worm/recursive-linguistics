@@ -40,7 +40,7 @@ def arbitraryText(n, Output, rules): #don't go too high w/ recursion
 
 syntaxRules = {
     "np":"dtjpnwrp",
-    "jp":"awjw",
+    "jp":"jw",
     "vp":"apvwnp",
     "ap":"aw",
     "pp":"pwdtnp",
@@ -66,7 +66,7 @@ wordReplacements = {
   "rn":RPNOUN
 }
 
-a=arbitraryText(5,"vp",syntaxRules)
+a=arbitraryText(8,"npvp",syntaxRules)
 print(a)
 print(writeWords(a, wordReplacements))
 
